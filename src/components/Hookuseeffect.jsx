@@ -25,6 +25,7 @@ const Hookuseeffect = () => {
   useEffect(()=>{
    
            setCount(basket.length)
+           console.log("hello");
     
   } , [basket])
 
